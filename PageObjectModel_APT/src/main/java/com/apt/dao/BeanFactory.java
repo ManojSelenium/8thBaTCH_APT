@@ -12,6 +12,7 @@ public class BeanFactory {
 		bean.setLastName(RandomStringUtils.randomAlphabetic(5));
 	}
 	
+	
 	public void editUserData(EditUserBean bean) {
 		bean.setFirstName(RandomStringUtils.randomAlphabetic(5));
 	}
